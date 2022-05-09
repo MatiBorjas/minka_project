@@ -1,0 +1,13 @@
+$primary: #263831;
+$secondary:#A65D1f;
+$fondo: #F0f0e6;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "fondo":      $fondo,
+);
+
+$font-family-sans-serif: 'Raleway', sans-serif;
+
+@import './node_modules/bootstrap/scss/bootstrap.scss'
