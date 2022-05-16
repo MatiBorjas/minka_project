@@ -11391,6 +11391,10 @@ header{
   align-items: center;
 }
 
+.boton-menu{
+  border: none;
+}
+
 .navbar-brand {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
