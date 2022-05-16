@@ -4133,6 +4133,8 @@ fieldset:disabled .btn {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  text-align: end;
+  letter-spacing: 2px;
 }
 
 .navbar-nav .dropdown-menu {
@@ -4149,7 +4151,7 @@ fieldset:disabled .btn {
       flex-basis: 100%;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
-          flex-grow: 1;
+          flex-grow: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -11343,15 +11345,20 @@ fieldset:disabled .btn {
 /* Custom CSS  */
 /***************/
 
+
 .texto-logo {
+  display: flex;
+  flex-direction: column;
   padding: 0;
   margin: 0;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 .frase-bienvenida{
   position:relative;
+  text-align: end;
   top: 45px;
-  left: 120px;
   font-size: 45px;
   font-weight: 100;
   letter-spacing: -2px;
@@ -11360,7 +11367,7 @@ fieldset:disabled .btn {
 .frase-fuerte{
   font-family: 'Roboto Slab', serif;
   font-weight: 900;
-  font-size: 80px;
+  font-size: 70px;
 }
 h2 {
   font-family: 'Roboto Slab', serif;
@@ -11371,7 +11378,29 @@ h2 {
   height: 200px;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.menu-desplegable{
+  display: flex;
+  justify-content: end;
+}
+
 .navbar-brand {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
+}
+
+.seccion-1{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.seccion-2{
+  padding-top: 50px;
+  padding-bottom: 100px;
 }

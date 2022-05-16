@@ -20,37 +20,26 @@
   <div class="container-fluid">
     
     <header>
-    <div class="row"> 
-      <nav class="navbar navbar-dark bg-primary py-4">
-        <div class="container-fluid">
-          <a class="navbar-brand fs-3" href="#">M I N K A</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <div class="row">
+      <a class="navbar-brand fs-2" href="#">M I N K A</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        
+        <div class="container-fluid justify-content-end">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end bg-primary" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title text-fondo" id="offcanvasNavbarLabel">Menu</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contacto">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#seccion-1">Seccion 1</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#seccion-2">Seccion 2</a>
-                </li>
-              </ul>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#seccion-1">Sección 1</a>
+              <a class="nav-link" href="#seccion-2">Sección 2</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </div>
           </div>
         </div>
       </nav>
+      
     </div>
     </header>
 
@@ -80,7 +69,7 @@
       </section>
 
       <section>
-        <div id="seccion-1" class="row justify-content-center mt-md-5">
+        <div id="seccion-1" class="seccion-1 row justify-content-center mt-md-5">
           <div class="col-md-5 mt-md-5">
             <h2>Seccion 1</h2>
             <p class="text-start fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit alias cupiditate cumque odio. Odio nobis soluta quae minus eos eveniet!</p>
@@ -92,7 +81,7 @@
       </section>
 
       <section>
-        <div id="seccion-2" class="row justify-content-center mt-md-5">
+        <div id="seccion-2" class="seccion-2 row justify-content-center mt-md-5">
           <div class="col-md-5 mt-md-5">
             <img class="img-fluid" src="./public/img/imges_section.png">
           </div>
