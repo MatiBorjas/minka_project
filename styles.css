@@ -11385,11 +11385,6 @@ header{
     z-index: 10;
 }
 
-.menu-desplegable{
-  display: flex;
-  justify-content: end;
-}
-
 .navbar-brand {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
