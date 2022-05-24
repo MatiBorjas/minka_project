@@ -16,12 +16,15 @@
   <title>MINKA | Bienvenidos</title>
 </head>
 
-<body class="bg-fondo">
+<body class="">
   <div class="container-fluid">
     
     <header>
     <div class="row">
-      <a class="navbar-brand fs-2 bg-fondo barra-nav" href="#">M I N K A</a>
+      <div class="barra-titulo bg-fondo">
+        <a class="navbar-brand fs-2" href="#">M I N K A</a>
+        <img class="img-fluid px-1 py-1" src="./public/assets/img/LOGOSINLETRA.png">
+      </div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid justify-content-end">
           <div class="navbar-toggler boton-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,8 +33,16 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#seccion-1">Sección 1</a>
-              <a class="nav-link" href="#seccion-2">Sección 2</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Proyectos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#interiorismo">Interiorismo</a></li>
+                  <li><a class="dropdown-item" href="#carteleria">Cartelería</a></li>
+                </ul>
+              </li>      
+              <a class="nav-link" href="#estudio">Estudio</a>
               <a class="nav-link" href="#contacto">Contacto</a>
             </div>
           </div>
@@ -42,16 +53,47 @@
 
     <main>
       <div id="home" class="row">
-        <img src="./public/img/logo.png" alt="MINKA Logo" class="col-md-6 img-fluid">
-          <div class="col-md-5 d-flex flex-column justify-content-center">
-            <div class="texto-logo">
-              <p class="frase-bienvenida text-primary">Frase Bienvenida</p>
-              <p class="frase-fuerte text-primary">Frase Fuerte</p>
-            </div>
-          </div>
+        <img src="./public/assets/img/DIBUJO PRESENTACION.png" class="col-md-10 img-fluid">
       </div>
 
-      <section>
+      <div class="row col-md-3 titulo-inicio-1">
+        <h2>Estudio Creativo</h1>
+        <p>Creemos en un diseño capaz de transformar y mejorar nuestra calidad de vida.</p>
+      </div>
+      <img src="./public/assets/img/PERSPECTI.113.jpg" class="img-fluid">
+      <div class="row col-md-3 titulo-inicio-1">
+        <h2>Ofrecemos un diseño integral</h1>
+        <p>de interiores y fachadas, cartelería y servicios de visualización 3D.</p>
+      </div>
+      
+      <seccion id="interiorismo" class="d-flex align-items-center">
+        <img src="./public/assets/img/perspectiva fachada.png" class="col-md-8 px-5 py-5">
+        <h1>INTERIORISMO</h1>
+      </seccion>
+
+      <seccion id="carteleria" class="d-flex justify-content-end align-items-center">
+        <h1>CARTELERÍA</h1>
+        <img src="./public/assets/img/BAILINA CARTEL 1.png" class="col-md-8 px-5 py-5">
+      </seccion>
+
+      <seccion id="estudio" class="d-flex align-items-center">
+        <img src="./public/assets/img/estudio.png" class="col-md-8 px-5 py-5">
+        <h1>ESTUDIO</h1>
+      </seccion>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <section>
         <div class="row justify-content-center">
           <div class="col-md-10">
             <div class="container-fluid">
@@ -87,12 +129,13 @@
             <p class="text-end fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit alias cupiditate cumque odio. Odio nobis soluta quae minus eos eveniet!</p>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section>
         <div id="contacto" class="row mt-5 bg-secondary">
           <div class="contenedor-contacto col-md-10 pt-3 pb-5">
             <h2 class="text-fondo">Contacto</h2>
+            <p>Desarrollamos y planificamos tus espacios. Proyectamos la visualización 3d.<br>Contactanos.</p>
           </div>
         </div>
       </section>

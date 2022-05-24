@@ -11346,29 +11346,6 @@ fieldset:disabled .btn {
 /***************/
 
 
-.texto-logo {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 100px;
-}
-
-.frase-bienvenida{
-  position:relative;
-  text-align: end;
-  top: 45px;
-  font-size: 45px;
-  font-weight: 100;
-  letter-spacing: -2px;
-  margin: 0px;
-}
-.frase-fuerte{
-  font-family: 'Roboto Slab', serif;
-  font-weight: 900;
-  font-size: 70px;
-}
 h2 {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
@@ -11385,9 +11362,9 @@ header{
     z-index: 10;
 }
 
-.barra-nav{
-  height: 30px;
+.barra-titulo{
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -11399,6 +11376,14 @@ header{
   font-family: 'Jost', sans-serif;
   font-weight: 300;
 }
+
+.titulo-inicio-1{
+  text-align: center;
+  width: 100%;
+}
+
+
+
 
 .seccion-1{
   padding-top: 100px;
