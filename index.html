@@ -30,7 +30,7 @@
           <div class="navbar-toggler boton-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </div>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link" aria-current="page" href="#">Home</a>
               <li class="nav-item dropdown">
@@ -66,27 +66,144 @@
         <p>de interiores y fachadas, cartelería y servicios de visualización 3D.</p>
       </div>
       
-      <seccion id="interiorismo" class="d-flex align-items-center">
-        <img src="./public/assets/img/perspectiva fachada.png" class="col-md-8 px-5 py-5">
-        <h1>INTERIORISMO</h1>
+      <seccion id="interiorismo" class="d-flex flex-column align-items-center">
+        <img src="./public/assets/img/perspectiva fachada.png" class="img-fluid col-md-8 px-5 pt-5">
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item acordion-interiorismo">
+            <h2 class="accordion-header" id="headingOne">
+              <div class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <p class="px-3">INTERIORISMO</p>
+              </div>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Diseñamos las fachadas e interiores de locales comerciales y distintos espacios, acompañando en todo el proceso.</strong><br>
+                Brindamos asesoramiento de construcción y colocación.
+                En la búsqueda de una identidad de marca desarrollamos
+                desde el mobiliario, la iluminación, la gráfica hasta la cartelería.<br>
+                Presentamos el proyecto en render 3d para su visualización arquitectónica.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <h1 class="py-3 pb-5">INTERIORISMO</h1> -->
       </seccion>
 
-      <seccion id="carteleria" class="d-flex justify-content-end align-items-center">
-        <h1>CARTELERÍA</h1>
-        <img src="./public/assets/img/BAILINA CARTEL 1.png" class="col-md-8 px-5 py-5">
+
+
+      <seccion id="carteleria" class="d-flex flex-column align-items-center">
+        <!-- <img src="./public/assets/img/BAILINA CARTEL 1.png" class="img-fluid col-md-8 px-5 pt-5"> -->
+        
+        
+        
+
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade col-md-8 px-5 pt-5" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./public/assets/img/BAILINA CARTEL 1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./public/assets/img/fotos carteleria comprimidas/imagen-carteleria08.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./public/assets/img/fotos carteleria comprimidas/imagen-carteleria10.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <h2>CARTELERÍA</h2>
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">CARTELERÍA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <strong>Ofrecemos el diseño, fabricación y colocación de carteles corpóreos para locales comerciales.</strong>
+
+                    <div class="d-flex flex-column py-5">
+                      <img src="public/assets/img/fotos carteleria comprimidas/imagen-carteleria01.png">
+                      <img src="public/assets/img/fotos carteleria comprimidas/imagen-carteleria02.png">
+                      <img src="public/assets/img/fotos carteleria comprimidas/imagen-carteleria03.png">
+                      <img src="public/assets/img/fotos carteleria comprimidas/imagen-carteleria04.png">
+                      <img src="public/assets/img/fotos carteleria comprimidas/imagen-carteleria05.png">
+                      <img src="public/assets/img/fotos carteleria comprimidas/imagen-carteleria06.png">
+                      <img src="public/assets/img/fotos carteleria comprimidas/imagen-carteleria07.png">
+                      <img src="public/assets/img/fotos carteleria comprimidas/imagen-carteleria08.png">
+                      <img src="public/assets/img/fotos carteleria comprimidas/imagen-carteleria09.png">
+                      <img src="public/assets/img/fotos carteleria comprimidas/imagen-carteleria10.png">
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </seccion>
 
-      <seccion id="estudio" class="d-flex align-items-center">
-        <img src="./public/assets/img/estudio.png" class="col-md-8 px-5 py-5">
-        <h1>ESTUDIO</h1>
-      </seccion>
+      <seccion id="estudio" class="d-flex flex-column align-items-center">
+        <img src="./public/assets/img/estudio.png" class="img-fluid col-md-8 px-5 pt-5">
+        <h1 class="py-3 pb-5">ESTUDIO</h1>
+      
+        
+          <p class="col-md-8 text-center">Minka es un estudio de diseño integral de interiorismo,
+            cartelería y productos de calidad, que brinda la
+            visualización 3D de cada anteproyecto de forma
+            profesional.<br> Trabajamos para mejorar y revivir espacios.</p>
+            <p class="col-md-7 text-center">  
+            Creemos que los mejores proyectos de diseño se logran planificando
+            cada detalle, poniendo siempre la prioridad en el bienestar de
+            quienes habitaremos los espacios y
+            productos.</p>
+            <p class="col-md-6 text-center">
+            Estamos en constante intercambio con otros estudios y
+            empresas locales, en búsqueda de nuevas oportunidades de cooperación
+            que permitan la innovación y reactivación del mundo del diseño.</p>
+          
+        </seccion>
 
 
 
 
-
-
-
+      
 
 
 
@@ -131,11 +248,16 @@
         </div>
       </section> -->
 
+      <div class="d-flex justify-content-center">
+          <img src="./public/assets/img/LOGOSINLETRAGRANDE.png">
+      </div>
+
       <section>
         <div id="contacto" class="row mt-5 bg-secondary">
-          <div class="contenedor-contacto col-md-10 pt-3 pb-5">
-            <h2 class="text-fondo">Contacto</h2>
-            <p>Desarrollamos y planificamos tus espacios. Proyectamos la visualización 3d.<br>Contactanos.</p>
+          <div class="contenedor-contacto col-md-12 pt-3 pb-5">
+            <h2 class="text-fondo text-center">Contacto</h2>
+            <p class="text-center">face . inst . wapp . email</p>
+            <p class="text-fondo text-center">Desarrollamos y planificamos tus espacios. Proyectamos la visualización 3d.<br>Contactanos.</p>
           </div>
         </div>
       </section>
@@ -143,12 +265,12 @@
 
     <footer>
       <div class="row bg-fondo align-items-center pt-2">
-        <div class="col-md-2">
-          <img class="img-fluid" src="./public/img/texto_minka_verde.png" alt="MINKA">
+        <div class="col-md-9">
+          <img class="img-fluid" src="./public/assets/img/LETRA-LOGO.png" alt="MINKA">
         </div>
-        <div class="col-md-10">
+        <div class="col-md-3">
           <div class="text-end pt-3">
-            <p>©MINKA 2022 - Mr.Threepwood & Oene Eric</p>
+            <p class="fs-03">©MINKA 2022 - Mr.Threepwood & Oene Eric</p>
           </div>
         </div>
       </div>

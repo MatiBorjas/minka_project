@@ -33,12 +33,12 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #263831;
-  --bs-secondary: #A65D1f;
-  --bs-fondo: #F0f0e6;
-  --bs-primary-rgb: 38, 56, 49;
-  --bs-secondary-rgb: 166, 93, 31;
-  --bs-fondo-rgb: 240, 240, 230;
+  --bs-primary: #aaa897;
+  --bs-secondary: #585b4f;
+  --bs-fondo: #f3f2eb;
+  --bs-primary-rgb: 170, 168, 151;
+  --bs-secondary-rgb: 88, 91, 79;
+  --bs-fondo-rgb: 243, 242, 235;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -11392,4 +11392,11 @@ header{
 .seccion-2{
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.acordion-interiorismo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
