@@ -11348,7 +11348,7 @@ fieldset:disabled .btn {
 /***************/
 @font-face {
   font-family: consolas;
-  src: url('./public/assets/fonts/CONSOLA.TTF') format('truetype');
+  src: url(./public/assets/fonts/CONSOLA.TTF);
   font-family: futura;
   src: url(./public/assets/fonts/Futura-Bk-BT-Book.ttf);
 }
