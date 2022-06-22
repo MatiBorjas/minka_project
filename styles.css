@@ -11346,15 +11346,21 @@ fieldset:disabled .btn {
 /***************/
 /* Custom CSS  */
 /***************/
-
-
-h2 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
+@font-face {
+  font-family: consolas;
+  src: url('./public/assets/fonts/CONSOLA.TTF') format('truetype');
+  font-family: futura;
+  src: url(./public/assets/fonts/Futura-Bk-BT-Book.ttf);
 }
 
-.contenedor-contacto {
-  height: 200px;
+body {
+  font-family: consolas, serif;
+}
+
+h2 {
+  font-family: 'futura', serif;
+  font-size: 23px;
+  font-weight: 700;
 }
 
 header{
@@ -11393,3 +11399,14 @@ header{
   padding-bottom: 100px;
 }
 
+.social-media{
+  width: 3rem;
+  /* margin: 15px 20px; */
+  border: 2px solid black;
+  background-color: var(--bs-secondary);
+  transition: all 0.3s ease-in-out;
+}
+
+  .social-media:hover {
+    transform: scale(1.2, 1.2);
+    background-color: #f3f2eb;}
