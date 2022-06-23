@@ -11401,7 +11401,7 @@ header{
 
 .social-media{
   width: 3rem;
-  /* margin: 15px 20px; */
+  margin: 10px;
   border: 2px solid black;
   background-color: var(--bs-secondary);
   transition: all 0.3s ease-in-out;
